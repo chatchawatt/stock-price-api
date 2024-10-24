@@ -1,0 +1,38 @@
+{
+    "info": {
+      "name": "Stock Price API",
+      "description": "Collection for testing stock price API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Get Stock Price by Ticker",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:8001/api/stock/TSLA",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "8001",
+            "path": ["api", "stock", "TSLA"]
+          }
+        }
+      },
+      {
+        "name": "Health Check",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:8001/api/health",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "8001",
+            "path": ["api", "health"]
+          }
+        }
+      }
+    ]
+  }
+  
