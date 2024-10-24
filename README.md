@@ -12,7 +12,6 @@ This is a simple Node.js API that fetches the latest stock prices using Yahoo Fi
 
 Clone the repository:
    git clone https://github.com/chatchawat/stock-price-api.git
-   cd stock-price-api
    
 # Install dependencies
 
